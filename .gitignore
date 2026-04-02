@@ -1,0 +1,138 @@
+# ====================
+# Visual Studio 相关
+# ====================
+
+## 编译输出目录
+Debug/
+Release/
+x64/
+Win32/
+build/
+out/
+
+## VS 配置文件
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## 临时文件
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.log
+*.tlog
+*.lastbuildstate
+*.idb
+*.ipdb
+*.iobj
+*.pch
+*.res
+*.rc
+*.manifest
+
+## 备份文件
+*.bak
+*.tmp
+*.old
+
+# ====================
+# OpenCV 相关
+# ====================
+
+## OpenCV 临时文件
+*.cache
+opencv_*.dll
+opencv_*.lib
+
+## 编译生成的 OpenCV 相关文件
+opencv_modules.hpp
+cvconfig.h
+
+# ====================
+# 项目输出文件
+# ====================
+
+## 图片输出目录
+output/
+
+# ====================
+# IDE 相关
+# ====================
+
+## Visual Studio Code
+.vscode/
+*.code-workspace
+
+## CLion
+.idea/
+cmake-build-*/
+
+## CodeBlocks
+*.cbp
+*.depend
+*.layout
+
+# ====================
+# 系统文件
+# ====================
+
+## Windows
+Thumbs.db
+desktop.ini
+ehthumbs.db
+*.ds_store
+
+## Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+## Linux
+*~
+.directory
+*.swp
+*.swo
+
+# ====================
+# 编译中间文件
+# ====================
+
+## 静态库/动态库
+*.lib
+*.dll
+*.so
+*.so.*
+*.a
+*.dylib
+
+## 其他编译产物
+*.exp
+*.pdb
+*.map
+*.ncb
+*.opt
+*.plg
+
+# ====================
+# 其他
+# ====================
+
+## 压缩包
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+## 日志文件
+*.log
+
+## 测试数据（如果不想提交）
+test_images/
+test_videos/
